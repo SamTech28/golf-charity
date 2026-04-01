@@ -20,7 +20,6 @@ export const env = createEnv({
     STRIPE_PRICE_YEARLY_ID: optionalNonEmpty,
     RESEND_API_KEY: optionalNonEmpty,
     EMAIL_FROM: optionalNonEmpty,
-    NEXT_PUBLIC_APP_URL: z.string().url(),
   },
   client: {
     NEXT_PUBLIC_SUPABASE_URL: z.string().url(),
