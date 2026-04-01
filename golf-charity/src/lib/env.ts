@@ -22,10 +22,10 @@ export const env = createEnv({
     EMAIL_FROM: optionalNonEmpty,
   },
   client: {
-    NEXT_PUBLIC_SUPABASE_URL: z.string().url(),
-    NEXT_PUBLIC_SUPABASE_ANON_KEY: z.string().min(1),
+    NEXT_PUBLIC_SUPABASE_URL: optionalNonEmpty,
+    NEXT_PUBLIC_SUPABASE_ANON_KEY: optionalNonEmpty,
     NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY: optionalNonEmpty,
-    NEXT_PUBLIC_APP_URL: z.string().url(),
+    NEXT_PUBLIC_APP_URL: optionalNonEmpty,
     NEXT_PUBLIC_DEMO_SUBSCRIPTION: z
       .string()
       .optional()
