@@ -142,7 +142,7 @@ export default function Home() {
               <div className="space-y-4">
                 <motion.div whileHover={{ scale: 1.02 }} className="rounded-2xl bg-white/5 border border-white/5 p-5 transition-colors hover:bg-white/10 cursor-pointer">
                   <div className="flex justify-between items-center mb-3">
-                    <div className="text-sm font-medium text-white">Children's Health Fund</div>
+                    <div className="text-sm font-medium text-white">Children&apos;s Health Fund</div>
                     <div className="text-xs font-bold text-rose-300">15% Split</div>
                   </div>
                   <div className="h-1.5 w-full rounded-full bg-white/10 overflow-hidden">
